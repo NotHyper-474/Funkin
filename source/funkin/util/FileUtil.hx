@@ -657,7 +657,6 @@ class FileUtil
     // FileUtil.hx note: this was originally used to open the logs specifically!
     // thats why the above comment is there!
     Sys.command('open', [pathFolder]);
-    // #end
     #elseif linux
     Sys.command('xdg-open $pathFolder &');
     #end
